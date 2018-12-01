@@ -1,0 +1,1222 @@
+ExeStack:
+v = 6
+(Domain.Statement.WhileStatement@56f4468b;Print: (v))
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Domain.Statement.WhileStatement@56f4468b;Print: (v))
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@56f4468b
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@7c16905e
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@7c16905e
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@7c16905e
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@7c16905e
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@2a2d45ba
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@2a2d45ba
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@2a2d45ba
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@2a2d45ba
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+(openFile(var_f,new.txt);(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))))
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+openFile(var_f,new.txt)
+(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f))))
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+(ReadStatement(var_f,c);(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f))))
+SymTable:
+var_f-->1
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+ReadStatement(var_f,c)
+(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))
+SymTable:
+var_f-->1
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+(d = c * 5;(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f)))
+SymTable:
+var_f-->1
+c-->15
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+d = c * 5
+(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f))
+SymTable:
+var_f-->1
+c-->15
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+(IF(c) THEN(Print: (c))ELSE(Print: (d));CloseStatement(var_f))
+SymTable:
+var_f-->1
+c-->15
+d-->75
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+IF(c) THEN(Print: (c))ELSE(Print: (d))
+CloseStatement(var_f)
+SymTable:
+var_f-->1
+c-->15
+d-->75
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+Print: (c)
+CloseStatement(var_f)
+SymTable:
+var_f-->1
+c-->15
+d-->75
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+CloseStatement(var_f)
+SymTable:
+var_f-->1
+c-->15
+d-->75
+v-->4
+Out:
+
+6
+5
+4
+15
+FileTable: 
+1-->new.txt
+Heap: 
+ExeStack:
+SymTable:
+var_f-->1
+c-->15
+d-->75
+v-->4
+Out:
+
+6
+5
+4
+15
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+(Domain.Statement.WhileStatement@5dfcfece;Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Domain.Statement.WhileStatement@5dfcfece;Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@5dfcfece
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@566776ad
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@566776ad
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@566776ad
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Domain.Statement.WhileStatement@566776ad;Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@566776ad
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@4f933fd1
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Domain.Statement.WhileStatement@548a9f61
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+((while(v - 4)(Print: (v);v = v - 1));Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+((while(v - 4)(Print: (v);v = v - 1));Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 
+ExeStack:
+v = 6
+((while(v - 4)(Print: (v);v = v - 1));Print: (v))
+SymTable:
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+((while(v - 4)(Print: (v);v = v - 1));Print: (v))
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->6
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+(Print: (v);v = v - 1)
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+FileTable: 
+Heap: 
+ExeStack:
+v = v - 1
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->5
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+(while(v - 4)(Print: (v);v = v - 1))
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v)
+SymTable:
+v-->4
+Out:
+
+6
+5
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->4
+Out:
+
+6
+5
+4
+FileTable: 
+Heap: 

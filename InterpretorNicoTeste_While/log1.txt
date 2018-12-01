@@ -1,0 +1,27 @@
+ExeStack:
+(v = 5;Print: (v / 3))
+SymTable:
+Out:
+FileTable: 
+Heap: 
+ExeStack:
+v = 5
+Print: (v / 3)
+SymTable:
+Out:
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v / 3)
+SymTable:
+v-->5
+Out:
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->5
+Out:
+1
+FileTable: 
+Heap: 
